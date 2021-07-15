@@ -126,7 +126,8 @@ def list_chatbot_chats(update: Update, context: CallbackContext):
 
 
 __help__ = f"""
-Chatbot utilizes the CoffeeHouse API and allows Saitama to talk and provides a more interactive group chat experience.
+Chatbot utilizes the Own Command For Better Experience Build Your Chat Bot For Your Group.p
+
 
 *Commands:*
 *Admins only:*
