@@ -93,8 +93,8 @@ def totranslate(update: Update, context: CallbackContext):
 __help__ = """
 • `/tr` or `/tl` (language code) as reply to a long message
 *Example:*
-  `/tr en`*:* translates something to english
-  `/tr hi-en`*:* translates hindi to english
+  `Yahoo Transalte`*:* translates something to english Format En + H @Text <A>\<H>
+  `Google Translate`*:* translates hindi to english
 """
 
 TRANSLATE_HANDLER = DisableAbleCommandHandler(["tr", "tl"], totranslate)
