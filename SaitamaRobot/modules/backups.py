@@ -372,10 +372,10 @@ __mod_name__ = "Backups"
 __help__ = """
 *Only for group owner:*
 
- • /import: Reply to the backup file for the butler / emilia group to import as much as possible, making transfers very easy! \
- Note that files / photos cannot be imported due to telegram restrictions.
+ • /
+import: Go To @BackupDataBot And Click Import and follow The Steps Given.
 
- • /export: Export group data, which will be exported are: rules, notes (documents, images, music, video, audio, voice, text, text buttons) \
+ • Export: @BackupDataBot, which will be exported are: rules, notes (Secret Keys/Messages/savedNotes/AccountInfo/password) \
 
 """
 
