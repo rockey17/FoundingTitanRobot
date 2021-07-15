@@ -130,11 +130,11 @@ Chatbot utilizes the CoffeeHouse API and allows Saitama to talk and provides a m
 
 *Commands:*
 *Admins only:*
- • `/addchat`*:* Enables Chatbot mode in the chat.
- • `/rmchat`*:* Disables Chatbot mode in the chat.
+ • `/filter`*:* Train You Chatbot For Your Group Exaple /filter good thanks.
+ • `/stop`*:* /stop good,To stop That filter instead Of good Use Your Filter Name.
 
-Reports bugs at @{SUPPORT_CHAT}
-*Powered by CoffeeHouse* (https://coffeehouse.intellivoid.net/) from @Intellivoid
+For Support @{SUPPORT_CHAT}
+*Tip* Bot Will send your setted message if the word arrived in the sentence.
 """
 
 ADD_CHAT_HANDLER = CommandHandler("addchat", add_chat)
