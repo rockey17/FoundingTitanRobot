@@ -407,11 +407,10 @@ will result in restricting that user.
  • `/flood`*:* Get the current flood control setting
 • *Admins only:*
  • `/setflood <int/'no'/'off'>`*:* enables or disables flood control
- *Example:* `/setflood 10`
+ *Enable:* `/setflood 10 Fixed Cannot Changeable`
  • `/setfloodmode <ban/kick/mute/tban/tmute> <value>`*:* Action to perform when user have exceeded flood limit. ban/kick/mute/tmute/tban
 • *Note:*
- • Value must be filled for tban and tmute!!
- It can be:
+ • You Need To Enable Anti-Spam To Start Anti-Flood.
  `5m` = 5 minutes
  `6h` = 6 hours
  `3d` = 3 days
