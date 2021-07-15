@@ -73,7 +73,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hello,Telegram User {}, I'm {}!
 I am an Advanced group management bot.
-Built by weebs for weebs, I specialize in managing Big eccentric communities,Do /help to see all commands!
+Built by weebs for weebs, I specialize in managing Groups and Big eccentric communities,Do /help to see all commands!
 """
 
 HELP_STRINGS = """
@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support Group🌿",
-                                url="https://t.me/otaku_regiment/",
+                                url="https://t.me/AiGmChat",
                             ),
                         ],
                     ],
