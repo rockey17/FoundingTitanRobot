@@ -72,8 +72,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello,Telegram User {}, I'm {}!
-I am an Anime themed group management bot.
-Built by weebs for weebs, I specialize in managing anime eccentric communities,Do /help to see all commands!
+I am an Advanced group management bot.
+Built by weebs for weebs, I specialize in managing Big eccentric communities,Do /help to see all commands!
 """
 
 HELP_STRINGS = """
@@ -97,7 +97,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/9127957b0437ed3a64332.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/9880cbd9e616dfd681091.jpg"
 
 DONATE_STRING = """Well, No Need To Donate."""
 
@@ -220,26 +220,6 @@ def start(update: Update, context: CallbackContext):
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
-                            ),
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="🚑 Support",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
-                            ),
-                            InlineKeyboardButton(
-                                text="🔔 Updates",
-                                url="https://t.me/foundingtitanupdates/",
-                            ),
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="📕 Getting Started",
-                                url="https://t.me/foundingtitanupdates/4",
-                            ),
-                            InlineKeyboardButton(
-                                text="🤖 Source code",
-                                url="https://github.com/sasukeuchiha912/FoundingTitanRobot",
                             ),
                         ],
                         [
