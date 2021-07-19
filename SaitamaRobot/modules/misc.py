@@ -118,7 +118,7 @@ Output: `1.0 USD = 75.505 INR`
  • /rlg: Join ears,nose,mouth and create an emo ;-;
  • /shout <keyword>: write anything you want to give loud shout
  • /weebify <text>: returns a weebified text
- • /sanitize: always use this before /pat or any contact
+ • /pat dont know try this! 
  • /pat: pats a user, or get patted
  • /8ball: predicts using 8ball method
 """
