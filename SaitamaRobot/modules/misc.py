@@ -81,7 +81,7 @@ def markdown_help(update: Update, context: CallbackContext):
     markdown_help_sender(update)
 
 
-__helper__ = """
+__help__ = """
 *Available commands:*
 *Markdown:*
  • `/markdownhelp`*:* quick summary of how markdown works in telegram - can only be called in private chats
@@ -118,7 +118,6 @@ Output: `1.0 USD = 75.505 INR`
  • /rlg: Join ears,nose,mouth and create an emo ;-;
  • /shout <keyword>: write anything you want to give loud shout
  • /weebify <text>: returns a weebified text
- • /pat dont know try this! 
  • /pat: pats a user, or get patted
  • /8ball: predicts using 8ball method
 """
