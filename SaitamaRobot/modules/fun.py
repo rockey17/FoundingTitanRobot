@@ -327,7 +327,7 @@ def weebify(update: Update, context: CallbackContext):
         message.reply_text(string)
 
 
-__help__ = """
+__helper__ = """
  • `/runs`*:* reply a random string from an array of replies
  • `/slap`*:* slap a user, or get slapped if not a reply
  • `/shrug`*:* get shrug XD
