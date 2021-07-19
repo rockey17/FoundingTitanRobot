@@ -34,7 +34,7 @@ def animequotes(update: Update, context: CallbackContext):
 
         random.choice(animequotes_strings.QUOTES_IMG))
 
-__help__ = """
+__helper__ = """
 
  • `/animequotes`*:* gives random anime quotes
 
