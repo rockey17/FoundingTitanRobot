@@ -81,7 +81,7 @@ def markdown_help(update: Update, context: CallbackContext):
     markdown_help_sender(update)
 
 
-__help__ = """
+__helper__ = """
 *Available commands:*
 *Markdown:*
  • `/markdownhelp`*:* quick summary of how markdown works in telegram - can only be called in private chats
