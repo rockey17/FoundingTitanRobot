@@ -180,7 +180,7 @@ def scam(imgspage, lim):
 
     return imglinks
 
-__help__ = """
+__helpee__ = """
    /Reverse :- Please reply to a sticker, or an image to search it!
 Do you know that you can search an image with a link too? /reverse picturelink <amount>.
 """
