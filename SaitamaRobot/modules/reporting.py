@@ -263,7 +263,7 @@ def buttons(update: Update, context: CallbackContext):
             query.answer("🛑 Failed to delete message!")
 
 
-__help__ = """
+__helpee__ = """
  • `/report Adminusername <reason>`*:* reply to a message to report it to admins.
  • `@adminUsername <help>`*:* reply to a message to report it to admins.
 *NOTE:* Neither of these will get triggered if used by admins.
