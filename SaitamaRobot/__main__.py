@@ -207,8 +207,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Create Logo",
-                                text="❍ /logo text :Create your logo with your name
- ❍ /wlogo text :  Create your logo with your name",
+                                url="t.me/{}?start=help".format(context.bot.username),
                                 ),
                             ),
                         ],
