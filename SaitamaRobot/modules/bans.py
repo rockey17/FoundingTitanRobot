@@ -398,7 +398,7 @@ def selfunban(context: CallbackContext, update: Update) -> str:
     return log
 
 
-__help__ = """
+__helpee__ = """
  • `/punchme`*:* punchs the user who issued the command
 
 *Admins only:*
