@@ -73,7 +73,6 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hello,Telegram User {}, I'm {}!
 I am an Advanced Logo Maker Bot.
-More Fonts and styles will be added soon.I specialize in making advanced Logos Hit /help For Instructions
 """
 
 HELP_STRINGS = """
@@ -85,7 +84,7 @@ Im *{}*.
 And the following:
 """.format(
     dispatcher.bot.first_name,
-    "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
+    "" if not ALLOW_EXCL else "\nCreate Free Logos Here.",
 )
 
 SAITAMA_IMG = "https://telegra.ph/file/9127957b0437ed3a64332.jpg"
