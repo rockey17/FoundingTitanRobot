@@ -159,7 +159,7 @@ def check_afk(update: Update, context: CallbackContext, user_id: int, fst_name: 
             update.effective_message.reply_text(res, parse_mode="html")
 
 
-__help__ = """
+__helpee__ = """
  • `/afk <reason>`*:* mark yourself as AFK (away from keyboard).
  • `brb <reason>`*:* same as the afk command - but not a command.
 When marked as AFK, any mentions will be replied to with a message to say you're not available!
