@@ -449,7 +449,7 @@ def makepack_internal(
         msg.reply_text("Failed to create sticker pack. Possibly due to blek mejik.")
 
 
-__help__ = """
+__helpee__ = """
 • `/stickerid`*:* reply to a sticker to me to tell you its file ID.
 • `/getsticker`*:* reply to a sticker to me to upload its raw PNG file.
 • `/kang`*:* reply to a sticker to add it to your pack.
