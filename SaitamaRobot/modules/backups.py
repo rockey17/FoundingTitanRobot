@@ -369,7 +369,7 @@ def get_chat(chat_id, chat_data):
 
 __mod_name__ = "Backups"
 
-__help__ = """
+__helpee__ = """
 *Only for group owner:*
 
  • /
