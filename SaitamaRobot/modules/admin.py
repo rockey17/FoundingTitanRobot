@@ -458,7 +458,7 @@ def adminlist(update, context):
         return
 
 
-__help__ = """
+__helpee__ = """
  • `/admins`*:* list of admins in the chat
 
 *Admins only:*
