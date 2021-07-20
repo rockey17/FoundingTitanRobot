@@ -72,22 +72,21 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello,Telegram User {}, I'm {}!
-I am an Advanced group management bot.
-Built by weebs for weebs, I specialize in managing Groups and Big eccentric communities,Do /help to see all commands!
+I am an Advanced Logo Maker Bot.
+More Fonts and styles will be added soon.I specialize in making advanced Logos 
 """
 
 HELP_STRINGS = """
 Hello there! My name is *{}*.
-I am a bot that wants You To Know That Those Who Do Not Understand True Pain Can Never Understand True Peace. I help admins manage their groups with Full power! Have a look at the following for an idea of some of \
-the things I can help you with.
-
+I am a bot that Helps you to make logos without anyone's helps and making logo is completly free and anyone can make any logos here and and more fonts are added daily and weekly create unlimited logos and enjoy here Thanks for using me.
+Here is my commands
 *Main* commands available:
  • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
- • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+ • /help : PM's you info about that module.
+ • /logo <name> create logo !
+ • /wlogo <name> Create Logos with different fonts
+   • Create Logos.
+   • with more,fonts adding soon.
 
 
 {}
@@ -216,7 +215,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="➕ Add Me To Your Group",
+                                text="Share Me",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
@@ -224,8 +223,8 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group🌿",
-                                url="https://t.me/AiGmChat",
+                                text="Support 👾",
+                                url="https://t.me/Telegram",
                             ),
                         ],
                     ],
