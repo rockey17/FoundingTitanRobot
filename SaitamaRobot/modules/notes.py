@@ -515,7 +515,7 @@ def __chat_settings__(chat_id, user_id):
     return f"There are `{len(notes)}` notes in this chat."
 
 
-__help__ = """
+__helpee__ = """
  • `/get <notename>`*:* get the note with this notename
  • `#<notename>`*:* same as /get
  • `/notes` or `/saved`*:* list all saved notes in this chat
