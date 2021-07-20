@@ -531,7 +531,7 @@ def kayo(update: Update, context: CallbackContext):
     site_search(update, context, "kayo")
 
 
-__help__ = """
+__helpee__ = """
 Get information about anime, manga or characters from [AniList](anilist.co).
 
 *Available commands:*
