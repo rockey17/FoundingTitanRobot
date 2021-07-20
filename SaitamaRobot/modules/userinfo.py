@@ -516,7 +516,7 @@ def __user_info__(user_id):
     return result
 
 
-__help__ = """
+__helpee__ = """
 *ID:*
  • `/id`*:* get the current group id. If used by replying to a message, gets that user's id.
  • `/gifid`*:* reply to a gif to me to tell you its file ID.
