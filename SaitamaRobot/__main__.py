@@ -73,7 +73,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hello,Telegram User {}, I'm {}!
 I am an Advanced Logo Maker Bot.
-More Fonts and styles will be added soon.I specialize in making advanced Logos 
+More Fonts and styles will be added soon.I specialize in making advanced Logos Hit /help For Instructions
 """
 
 HELP_STRINGS = """
