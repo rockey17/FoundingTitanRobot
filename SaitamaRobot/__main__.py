@@ -77,16 +77,8 @@ More Fonts and styles will be added soon.I specialize in making advanced Logos H
 """
 
 HELP_STRINGS = """
-Hello there! My name is *{}*.
-I am a bot that Helps you to make logos without anyone's helps and making logo is completly free and anyone can make any logos here and and more fonts are added daily and weekly create unlimited logos and enjoy here Thanks for using me.
-Here is my commands
-*Main* commands available:
- • /help: PM's you this message.
- • /help : PM's you info about that module.
- • /logo <name> create logo !
- • /wlogo <name> Create Logos with different fonts
-   • Create Logos.
-   • with more,fonts adding soon.
+Im *{}*.
+ Use me to make logos.
 
 
 {}
@@ -215,16 +207,16 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Share Me",
-                                url="t.me/{}?startgroup=true".format(
+                                text="Create Logo",
+                                url="t.me/{}?start=help".format(
                                     context.bot.username,
                                 ),
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support 👾",
-                                url="https://t.me/Telegram",
+                                text="Developer",
+                                url="https://t.me/Radical_The_Demon",
                             ),
                         ],
                     ],
